@@ -26,6 +26,7 @@ export default function App() {
     <div>
       <h1 className="title">MusicPedia</h1>
       <h2 className="subheading">Find out info about your favorite artists 🎶🔍</h2>
+      ArtistCards ArtistName = "Drake"
     </div>
   );
 }
@@ -40,4 +41,7 @@ export default function App() {
 //    - A `p` tag to list popular songs by the artist
 function ArtistCards(props) {
   return <div className="card"></div>;
+  <h2>{props.ArtistName}</h2>
 }
+
+
